@@ -42,6 +42,9 @@
                   Identifier = "AssertYourselfTests/test_fail()">
                </Test>
                <Test
+                  Identifier = "AssertYourselfTests/test_fail_withInterpolatedMessage()">
+               </Test>
+               <Test
                   Identifier = "AssertYourselfTests/test_fail_withSimpleMessage()">
                </Test>
             </SkippedTests>
