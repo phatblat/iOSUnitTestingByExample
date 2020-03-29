@@ -66,4 +66,9 @@ class AssertYourselfTests: XCTestCase {
         let actual = "actual"
         XCTAssertEqual(actual, "expected")
     }
+
+    func test_assertEqual_withOptional() {
+        let result: String? = "foo"
+        XCTAssertEqual(result, "bar")
+    }
 }
