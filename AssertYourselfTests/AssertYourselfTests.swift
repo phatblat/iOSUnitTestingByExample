@@ -48,4 +48,17 @@ class AssertYourselfTests: XCTestCase {
         let optionaValue: SimpleStruct? = SimpleStruct(x: 1, y: 2)
         XCTAssertNil(optionaValue)
     }
+
+    struct StructWithDescription: CustomStringConvertible {
+        let x: Int
+        let y: Int
+
+        var description: String {
+            return "(\(x), \(y))"
+        }
+    }
+    func test_assertNil_withSelfDescribingType() {
+        let optionaValue: StructWithDescription? = StructWithDescription(x: 1, y: 2)
+        XCTAssertNil(optionaValue)
+    }
 }
