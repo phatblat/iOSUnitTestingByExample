@@ -39,6 +39,9 @@
             </BuildableReference>
             <SkippedTests>
                <Test
+                  Identifier = "AssertYourselfTests/test_assertEqual()">
+               </Test>
+               <Test
                   Identifier = "AssertYourselfTests/test_assertNil()">
                </Test>
                <Test
