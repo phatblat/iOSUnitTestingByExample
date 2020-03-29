@@ -81,4 +81,10 @@ class AssertYourselfTests: XCTestCase {
         let result = 0.1 + 0.2
         XCTAssertEqual(result, 0.3, accuracy: 0.00017)
     }
+
+    func test_messageOverKill() {
+        let actual = "actual"
+        XCTAssertEqual(actual, "expected",
+                       "Exptected \"expected\" but got \"\(actual)\'")
+    }
 }

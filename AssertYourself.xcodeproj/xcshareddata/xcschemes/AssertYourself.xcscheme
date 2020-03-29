@@ -71,6 +71,9 @@
                <Test
                   Identifier = "AssertYourselfTests/test_floatingPointDanger()">
                </Test>
+               <Test
+                  Identifier = "AssertYourselfTests/test_messageOverKill()">
+               </Test>
             </SkippedTests>
          </TestableReference>
       </Testables>
