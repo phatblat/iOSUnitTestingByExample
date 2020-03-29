@@ -71,4 +71,9 @@ class AssertYourselfTests: XCTestCase {
         let result: String? = "foo"
         XCTAssertEqual(result, "bar")
     }
+
+    func test_floatingPointDanger() {
+        let result = 0.1 + 0.2
+        XCTAssertEqual(result, 0.3)
+    }
 }
