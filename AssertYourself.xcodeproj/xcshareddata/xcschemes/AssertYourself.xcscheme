@@ -42,6 +42,9 @@
                   Identifier = "AssertYourselfTests/test_assertNil()">
                </Test>
                <Test
+                  Identifier = "AssertYourselfTests/test_assertNil_withSimpleStruct()">
+               </Test>
+               <Test
                   Identifier = "AssertYourselfTests/test_assertTrue()">
                </Test>
                <Test
