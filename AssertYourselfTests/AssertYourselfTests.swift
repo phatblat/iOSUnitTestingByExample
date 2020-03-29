@@ -29,4 +29,9 @@ class AssertYourselfTests: XCTestCase {
             XCTFail()
         }
     }
+
+    func test_assertTrue() {
+        let success = false
+        XCTAssertTrue(success)
+    }
 }
