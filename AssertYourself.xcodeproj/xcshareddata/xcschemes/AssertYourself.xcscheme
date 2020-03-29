@@ -39,6 +39,9 @@
             </BuildableReference>
             <SkippedTests>
                <Test
+                  Identifier = "AssertYourselfTests/test_avoidConditionalCode()">
+               </Test>
+               <Test
                   Identifier = "AssertYourselfTests/test_fail()">
                </Test>
                <Test
