@@ -14,6 +14,7 @@
 		F8F26295243165970004A245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F26294243165970004A245 /* Preview Assets.xcassets */; };
 		F8F26298243165970004A245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F26296243165970004A245 /* LaunchScreen.storyboard */; };
 		F8F262A3243165970004A245 /* AssertYourselfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F262A2243165970004A245 /* AssertYourselfTests.swift */; };
+		F8F262AE243166410004A245 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8F262AD243166410004A245 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		F8F2629E243165970004A245 /* AssertYourselfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssertYourselfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F262A2243165970004A245 /* AssertYourselfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertYourselfTests.swift; sourceTree = "<group>"; };
 		F8F262A4243165970004A245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F262AD243166410004A245 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F8F2628A243165950004A245 /* AssertYourself */ = {
 			isa = PBXGroup;
 			children = (
+				F8F262AD243166410004A245 /* Default-568h@2x.png */,
 				F8F2628B243165950004A245 /* AppDelegate.swift */,
 				F8F2628D243165950004A245 /* SceneDelegate.swift */,
 				F8F2628F243165950004A245 /* ContentView.swift */,
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F26298243165970004A245 /* LaunchScreen.storyboard in Resources */,
+				F8F262AE243166410004A245 /* Default-568h@2x.png in Resources */,
 				F8F26295243165970004A245 /* Preview Assets.xcassets in Resources */,
 				F8F26292243165970004A245 /* Assets.xcassets in Resources */,
 			);
