@@ -13,7 +13,8 @@
 		F8F262C224316CC80004A245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F262C124316CC80004A245 /* Assets.xcassets */; };
 		F8F262C524316CC80004A245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F262C424316CC80004A245 /* Preview Assets.xcassets */; };
 		F8F262C824316CC80004A245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F262C624316CC80004A245 /* LaunchScreen.storyboard */; };
-		F8F262D324316CC80004A245 /* LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F262D224316CC80004A245 /* LifeCycleTests.swift */; };
+		F8F262DE24316DAA0004A245 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F262DD24316DAA0004A245 /* MyClass.swift */; };
+		F8F262E024316E2F0004A245 /* MyClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F262DF24316E2F0004A245 /* MyClassTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,9 @@
 		F8F262C724316CC80004A245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8F262C924316CC80004A245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8F262CE24316CC80004A245 /* LifeCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8F262D224316CC80004A245 /* LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTests.swift; sourceTree = "<group>"; };
 		F8F262D424316CC80004A245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F262DD24316DAA0004A245 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		F8F262DF24316E2F0004A245 /* MyClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClassTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				F8F262BB24316CC60004A245 /* AppDelegate.swift */,
-				F8F262BD24316CC60004A245 /* SceneDelegate.swift */,
-				F8F262BF24316CC60004A245 /* ContentView.swift */,
 				F8F262C124316CC80004A245 /* Assets.xcassets */,
-				F8F262C624316CC80004A245 /* LaunchScreen.storyboard */,
+				F8F262BF24316CC60004A245 /* ContentView.swift */,
 				F8F262C924316CC80004A245 /* Info.plist */,
+				F8F262C624316CC80004A245 /* LaunchScreen.storyboard */,
+				F8F262DD24316DAA0004A245 /* MyClass.swift */,
 				F8F262C324316CC80004A245 /* Preview Content */,
+				F8F262BD24316CC60004A245 /* SceneDelegate.swift */,
 			);
 			path = LifeCycle;
 			sourceTree = "<group>";
@@ -101,8 +104,8 @@
 		F8F262D124316CC80004A245 /* LifeCycleTests */ = {
 			isa = PBXGroup;
 			children = (
-				F8F262D224316CC80004A245 /* LifeCycleTests.swift */,
 				F8F262D424316CC80004A245 /* Info.plist */,
+				F8F262DF24316E2F0004A245 /* MyClassTests.swift */,
 			);
 			path = LifeCycleTests;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F262DE24316DAA0004A245 /* MyClass.swift in Sources */,
 				F8F262BC24316CC60004A245 /* AppDelegate.swift in Sources */,
 				F8F262BE24316CC60004A245 /* SceneDelegate.swift in Sources */,
 				F8F262C024316CC60004A245 /* ContentView.swift in Sources */,
@@ -218,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8F262D324316CC80004A245 /* LifeCycleTests.swift in Sources */,
+				F8F262E024316E2F0004A245 /* MyClassTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
