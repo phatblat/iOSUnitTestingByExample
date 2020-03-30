@@ -10,8 +10,9 @@
 import XCTest
 
 class MyClassTests: XCTestCase {
+    private let sut = MyClass()
+
     func test_methodOne() {
-        let sut = MyClass()
 
         sut.methodOne()
 
@@ -19,7 +20,6 @@ class MyClassTests: XCTestCase {
     }
 
     func test_methodTwo() {
-        let sut = MyClass()
 
         sut.methodTwo()
 
