@@ -16,6 +16,7 @@ class TestingAppDelegate: UIResponder, UIApplicationDelegate {
         print("<< Launching with testing app delegate")
         print("Window: \(String(describing: window))")
         print("Root VC: \(String(describing: window?.rootViewController))")
+
         return true
     }
 }
