@@ -10,10 +10,10 @@ import UIKit
 
 class CoveredClass {
     static func max(_ x: Int, _ y: Int) -> Int {
-        if x < y {
-            return y
-        } else {
+        guard x < y else {
             return x
         }
+
+        return y
     }
 }
