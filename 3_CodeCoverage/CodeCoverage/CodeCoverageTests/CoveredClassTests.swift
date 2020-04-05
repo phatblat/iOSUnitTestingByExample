@@ -12,5 +12,7 @@ import XCTest
 class CoveredClassTests: XCTestCase {
     func test_max_with1And2_shouldReturnSomething() {
         let result = CoveredClass.max(1, 2)
+
+        XCTAssertEqual(result, 2)
     }
 }
