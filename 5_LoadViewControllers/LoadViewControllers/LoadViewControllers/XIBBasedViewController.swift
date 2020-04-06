@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  XIBBasedViewController.swift
 //  LoadViewControllers
 //
 //  Created by Ben Chatelain on 4/5/20.
@@ -8,4 +8,6 @@
 
 import UIKit
 
-class ViewController: UIViewController {}
+class XIBBasedViewController: UIViewController {
+    @IBOutlet var label: UILabel!
+}
