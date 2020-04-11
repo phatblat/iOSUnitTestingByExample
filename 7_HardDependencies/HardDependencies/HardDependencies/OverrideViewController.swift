@@ -10,9 +10,13 @@ import UIKit
 
 class OverrideViewController: UIViewController {
 
+    func analytics() -> Analytics {
+        return Analytics.shared
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        Analytics.shared.track(event: "viewDidAppear - \(type(of: self))")
+        analytics().track(event: "viewDidAppear - \(type(of: self))")
     }
 }
