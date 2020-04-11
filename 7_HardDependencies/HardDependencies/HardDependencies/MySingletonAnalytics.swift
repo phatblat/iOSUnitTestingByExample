@@ -19,6 +19,7 @@ class MySingletonAnalytics {
             return stubbedInstance
         }
         #endif
+        
         return instance
     }
 

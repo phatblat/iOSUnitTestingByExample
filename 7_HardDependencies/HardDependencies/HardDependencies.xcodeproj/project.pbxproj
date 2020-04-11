@@ -25,6 +25,7 @@
 		F86983E424421E16003B60E7 /* ClosureInitializerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86983E224421E16003B60E7 /* ClosureInitializerViewController.xib */; };
 		F86983E724421E31003B60E7 /* MySingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86983E524421E31003B60E7 /* MySingletonViewController.swift */; };
 		F86983E824421E31003B60E7 /* MySingletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86983E624421E31003B60E7 /* MySingletonViewController.xib */; };
+		F86983EA24424C29003B60E7 /* MySingletonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86983E924424C29003B60E7 /* MySingletonViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F86983E224421E16003B60E7 /* ClosureInitializerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClosureInitializerViewController.xib; sourceTree = "<group>"; };
 		F86983E524421E31003B60E7 /* MySingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewController.swift; sourceTree = "<group>"; };
 		F86983E624421E31003B60E7 /* MySingletonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySingletonViewController.xib; sourceTree = "<group>"; };
+		F86983E924424C29003B60E7 /* MySingletonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				F86983C8244210FC003B60E7 /* Info.plist */,
+				F86983E924424C29003B60E7 /* MySingletonViewControllerTests.swift */,
 			);
 			path = HardDependenciesTests;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 					};
 					F86983C1244210FC003B60E7 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 						TestTargetID = F86983AB244210F8003B60E7;
 					};
 				};
@@ -255,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86983EA24424C29003B60E7 /* MySingletonViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +448,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MTGSZH8QM4;
 				INFOPLIST_FILE = HardDependenciesTests/Info.plist;
@@ -454,6 +460,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.HardDependenciesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HardDependencies.app/HardDependencies";
@@ -465,6 +472,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MTGSZH8QM4;
 				INFOPLIST_FILE = HardDependenciesTests/Info.plist;
