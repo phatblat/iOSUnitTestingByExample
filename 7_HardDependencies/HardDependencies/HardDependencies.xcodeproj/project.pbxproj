@@ -13,6 +13,8 @@
 		F86983B7244210F8003B60E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86983B5244210F8003B60E7 /* Main.storyboard */; };
 		F86983B9244210FC003B60E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86983B8244210FC003B60E7 /* Assets.xcassets */; };
 		F86983BC244210FC003B60E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86983BA244210FC003B60E7 /* LaunchScreen.storyboard */; };
+		F86983D224421194003B60E7 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86983D124421194003B60E7 /* Analytics.swift */; };
+		F86983D424421232003B60E7 /* MySingletonAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86983D324421232003B60E7 /* MySingletonAnalytics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F86983BD244210FC003B60E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F86983C2244210FC003B60E7 /* HardDependenciesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HardDependenciesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86983C8244210FC003B60E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86983D124421194003B60E7 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		F86983D324421232003B60E7 /* MySingletonAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySingletonAnalytics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,13 +81,15 @@
 		F86983AE244210F8003B60E7 /* HardDependencies */ = {
 			isa = PBXGroup;
 			children = (
+				F86983D124421194003B60E7 /* Analytics.swift */,
 				F86983AF244210F8003B60E7 /* AppDelegate.swift */,
+				F86983B8244210FC003B60E7 /* Assets.xcassets */,
+				F86983BD244210FC003B60E7 /* Info.plist */,
+				F86983BA244210FC003B60E7 /* LaunchScreen.storyboard */,
+				F86983B5244210F8003B60E7 /* Main.storyboard */,
+				F86983D324421232003B60E7 /* MySingletonAnalytics.swift */,
 				F86983B1244210F8003B60E7 /* SceneDelegate.swift */,
 				F86983B3244210F8003B60E7 /* ViewController.swift */,
-				F86983B5244210F8003B60E7 /* Main.storyboard */,
-				F86983B8244210FC003B60E7 /* Assets.xcassets */,
-				F86983BA244210FC003B60E7 /* LaunchScreen.storyboard */,
-				F86983BD244210FC003B60E7 /* Info.plist */,
 			);
 			path = HardDependencies;
 			sourceTree = "<group>";
@@ -199,6 +205,8 @@
 			files = (
 				F86983B4244210F8003B60E7 /* ViewController.swift in Sources */,
 				F86983B0244210F8003B60E7 /* AppDelegate.swift in Sources */,
+				F86983D224421194003B60E7 /* Analytics.swift in Sources */,
+				F86983D424421232003B60E7 /* MySingletonAnalytics.swift in Sources */,
 				F86983B2244210F8003B60E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
