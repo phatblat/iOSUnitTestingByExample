@@ -13,7 +13,6 @@
 		F86983B7244210F8003B60E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86983B5244210F8003B60E7 /* Main.storyboard */; };
 		F86983B9244210FC003B60E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86983B8244210FC003B60E7 /* Assets.xcassets */; };
 		F86983BC244210FC003B60E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86983BA244210FC003B60E7 /* LaunchScreen.storyboard */; };
-		F86983C7244210FC003B60E7 /* HardDependenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86983C6244210FC003B60E7 /* HardDependenciesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		F86983BB244210FC003B60E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F86983BD244210FC003B60E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F86983C2244210FC003B60E7 /* HardDependenciesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HardDependenciesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F86983C6244210FC003B60E7 /* HardDependenciesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardDependenciesTests.swift; sourceTree = "<group>"; };
 		F86983C8244210FC003B60E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +91,6 @@
 		F86983C5244210FC003B60E7 /* HardDependenciesTests */ = {
 			isa = PBXGroup;
 			children = (
-				F86983C6244210FC003B60E7 /* HardDependenciesTests.swift */,
 				F86983C8244210FC003B60E7 /* Info.plist */,
 			);
 			path = HardDependenciesTests;
@@ -210,7 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F86983C7244210FC003B60E7 /* HardDependenciesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
