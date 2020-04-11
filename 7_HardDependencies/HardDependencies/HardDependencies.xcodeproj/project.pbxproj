@@ -27,6 +27,7 @@
 		F86983E824421E31003B60E7 /* MySingletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86983E624421E31003B60E7 /* MySingletonViewController.xib */; };
 		F86983EA24424C29003B60E7 /* MySingletonViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86983E924424C29003B60E7 /* MySingletonViewControllerTests.swift */; };
 		F86983EC24424E4E003B60E7 /* OverrideViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86983EB24424E4E003B60E7 /* OverrideViewControllerTests.swift */; };
+		F86983EE24425271003B60E7 /* InstanceInitializerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86983ED24425271003B60E7 /* InstanceInitializerViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		F86983E624421E31003B60E7 /* MySingletonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySingletonViewController.xib; sourceTree = "<group>"; };
 		F86983E924424C29003B60E7 /* MySingletonViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonViewControllerTests.swift; sourceTree = "<group>"; };
 		F86983EB24424E4E003B60E7 /* OverrideViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideViewControllerTests.swift; sourceTree = "<group>"; };
+		F86983ED24425271003B60E7 /* InstanceInitializerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceInitializerViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				F86983C8244210FC003B60E7 /* Info.plist */,
 				F86983E924424C29003B60E7 /* MySingletonViewControllerTests.swift */,
 				F86983EB24424E4E003B60E7 /* OverrideViewControllerTests.swift */,
+				F86983ED24425271003B60E7 /* InstanceInitializerViewControllerTests.swift */,
 			);
 			path = HardDependenciesTests;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86983EC24424E4E003B60E7 /* OverrideViewControllerTests.swift in Sources */,
+				F86983EE24425271003B60E7 /* InstanceInitializerViewControllerTests.swift in Sources */,
 				F86983EA24424C29003B60E7 /* MySingletonViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
