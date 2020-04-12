@@ -16,5 +16,7 @@ class InstanceInitializerViewControllerTests: XCTestCase {
         sut.loadViewIfNeeded()
 
         sut.viewDidAppear(false)
+
+        // Normally, assert something
     }
 }
